@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Cookie Timer",
+  "version": "1.0",
+  "description": "Displays the time remaining for a specific cookie.",
+  "permissions": ["cookies"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
